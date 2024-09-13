@@ -24,4 +24,12 @@ header{
 .search {
     background-color: transparent;
     border: 2px solid var(--primary-color);
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.search::placeholder {
+    color: #7378c5;
 }
